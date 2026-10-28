@@ -78,3 +78,11 @@ Key outputs include:
 - `data/sorsa_sentiment_vs_price.png`
 
 Scripts for data collection, preparation, modeling, visualization, and backtesting are located in `src/`.
+
+## 9.Commands to Run :
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+python src/train_models.py
+python src/backtest_metrics.py
+python src/visualize.py
